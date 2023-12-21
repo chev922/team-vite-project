@@ -4,81 +4,31 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/team-vite-project/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>YACHTJET</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
     
     <script type="module" crossorigin src="/team-vite-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/team-vite-project/assets/index-5745b673.css">
+    <link rel="stylesheet" href="/team-vite-project/assets/index-64d6a8d8.css">
   </head>
   <body>
-    <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <!-- <a href="./page-2.html" class="nav-link">Page 2</a> -->
-      </li>
-
-      <li class="nav-item">
-        <!-- <a href="./page-3.html" class="nav-link">Page 3</a> -->
-      </li>
-    </ul>
-  </nav>
-</header>
-
-
-    <section>
-      <!-- <h1>Lorem ipsum dolor sit amet.</h1> -->
-      <!-- Path to images as from index.html file -->
-      <!-- <img src="./img/javascript.svg" alt="" /> -->
-    </section>
-
-    <!-- Loads the specified .html file -->
-    <!-- <section class="vite-promo">
-  <div class="container">
-    <div class="wrapper">
-      <h2 class="title">
-        <span class="gradient">Vite</span>
-      </h2>
-      <p class="text">Next Generation Frontend Tooling</p>
-      <p class="tagline">
-        Get ready for a development environment that can finally catch up with
-        you.
-      </p>
-
-      <ul class="actions">
-        <li class="action">
-          <a
-            class="link"
-            href="https://vitejs.dev/guide/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Get Started</a
-          >
-        </li>
-        <li class="action">
-          <a
-            class="link"
-            href="https://github.com/vitejs/vite"
-            target="_blank"
-            rel="noopener noreferrer"
-            >View on GitHub</a
-          >
-        </li>
-      </ul>
-    </div>
-
-    <div class="thumb">
-      <img
-        class="pic"
-        src="./img/vite-logo.png"
-        alt="Vite logo"
-        width="640"
-        height="640"
-      />
-    </div>
-  </div>
-</section>
- -->
-    <section class="rent-yacht">
+    
+    <main>
+      <div class="background-picture">
+        
+        
+      </div>
+      
+      
+      <section class="rent-yacht section">
   <h2 class="rent-yacht-title">Rent a yacht now</h2>
         <form class="review-form">
           <div class="review-form-field-wrapper">
@@ -143,74 +93,39 @@
           <img> 
 </section>
 
-    <section>
-      <!-- <section class="rent-yacht">
-  <h2 class="rent-yacht-title">Rent a yacht now</h2>
-        <form class="review-form">
-          <div class="review-form-field-wrapper">
-            <label class="review-form-field-label visually-hidden" for="user-name">Full Name</label>
-            <div class="review-form-input-wrapper">
-              <input
-                class="review-form-input"
-                id="user-name"
-                name="user-name"
-                type="text"
-                pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+"
-                title="Oleksii"
-                placeholder="Full Name"
-                required
-              />
-            </div>
-          </div>
-          <div class="review-form-field-wrapper">
-            <label class="review-form-field-label visually-hidden" for="user-email"
-              >Email</label
-            >
-            <div class="review-form-input-wrapper">
-              <input
-                class="review-form-input"
-                id="user-email"
-                name="user-email"
-                type="email"
-                placeholder="Email"
-                required
-              />
-            </div>
-          </div>
-          <div class="review-form-field-wrapper">
-            <label class="review-form-field-label visually-hidden" for="user-tel">Phone</label>
-            <div class="review-form-input-wrapper">
-              <input
-                class="review-form-input"
-                id="user-tel"
-                name="user-tel"
-                type="tel"
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-                title="xxx-xxx-xx-xx"
-                placeholder="Phone"
-                required
-              />
-            </div>
-          </div>
-          <div class="review-form-field-wrapper-comment">
-            <label class="review-form-field-label visually-hidden" for="user-comment"
-              >Comment</label
-            ><textarea
-              class="review-form-comment"
-              id="user-comment"
-              name="user-comment"
-              placeholder="Comment"
-              required
-            ></textarea>
-          </div>
-          <button class="review-form-submit-btn button" type="submit">
-            Send
-          </button>
-          <img> 
-</section>
- -->
-    </section>
+      
+      <div>
+        <picture>
+          <source
+            srcset="
+              ./src/img/about_us/about-us-mobil.jpg   1x,
+              ./src/img/about_us/about-us-mobil@2.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            src="./src/img/about_us/about-us-mobil.jpg"
+            alt="laptop and phone"
+            width="335"
+          />
+        </picture>
+      </div>
+    </main>
+    
+    
 
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
     
   </body>
 </html>
